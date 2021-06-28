@@ -11,11 +11,11 @@ with open("some_file.txt") as fi:
 from typing import Tuple
 
 
-def find_maximum_and_minimum(file_name: str) -> Tuple[int, int]:
+def maximum_and_minimum(file_name: str) -> Tuple[int, int]:
     """
-
-    :param file_name:
-    :return:
+    Function found maximum and minimum in file
+    :param file_name: file_name
+    :return:min and max value
     """
     min_value = None
     max_value = None

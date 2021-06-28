@@ -1,7 +1,7 @@
-from pathlib import Path
+import os
 
 import pytest
-from homework1.task3.min_max_value.min_max_value import find_maximum_and_minimum
+from homework1.task3.min_max_value.min_max_value import maximum_and_minimum
 
 
 @pytest.mark.parametrize(
@@ -12,9 +12,9 @@ from homework1.task3.min_max_value.min_max_value import find_maximum_and_minimum
         ("zero_check.txt", (0, 5)),
     ],
 )
-def test_check_min_and_max_finding_func(name_of_file: str, expected_result: tuple):
-    result = find_maximum_and_minimum(
-        Path("./homework1/task3/test/test_data").joinpath(name_of_file)
+def test_check_min_and_max_func(name_of_file: str, expected_result: tuple):
+    result = maximum_and_minimum(
+        os.path.join("./homework1/task3/test/test_data", name_of_file)
     )
 
     assert result == expected_result
