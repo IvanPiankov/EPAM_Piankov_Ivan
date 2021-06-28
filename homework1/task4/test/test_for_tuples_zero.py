@@ -1,4 +1,5 @@
 import pytest
+
 from homework1.task4.tuples_zero.tuples_zero import check_sum_of_four
 
 
