@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from homework1.task3.min_max_value.min_max_value import \
-    find_maximum_and_minimum
+import pytest
+from homework1.task3.min_max_value.min_max_value import find_maximum_and_minimum
 
 
 @pytest.mark.parametrize(
