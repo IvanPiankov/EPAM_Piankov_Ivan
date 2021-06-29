@@ -3,25 +3,24 @@ import os
 import pytest
 from homework2.task1.text_symbol.text_symbol import *
 
+list_with_ten_words = [
+    "Hello",
+    "PrivetAnswer",
+    "Longest",
+    "popopopopopopo",
+    "victory",
+    "find",
+    "shell",
+    "minus",
+    "Solongsosolong",
+    "plus",
+]
+
 
 @pytest.mark.parametrize(
     ["name_of_file", "expected_result"],
     [
-        (
-            "longest_word_and_punct.txt",
-            [
-                "Hello",
-                "PrivetAnswer",
-                "Longest",
-                "popopopopopopo",
-                "victory",
-                "find",
-                "shell",
-                "minus",
-                "Solongsosolong",
-                "plus",
-            ],
-        ),
+        ("longest_word_and_punct.txt", list_with_ten_words),
         ("english_one_word_and_punct.txt", ["Hello"]),
     ],
 )
