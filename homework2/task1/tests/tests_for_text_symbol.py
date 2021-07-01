@@ -35,7 +35,10 @@ def test_longest_word(name_of_file: str, expected_result: tuple):
 
 @pytest.mark.parametrize(
     ["name_of_file", "expected_result"],
-    [("rer_symbol", "a"), ("one_word_and_punct.txt", "!"),],
+    [
+        ("rer_symbol", "a"),
+        ("one_word_and_punct.txt", "!"),
+    ],
 )
 def test_get_rarest_char(name_of_file: str, expected_result: str):
     result = get_rarest_char(
