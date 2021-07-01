@@ -1,4 +1,5 @@
 import pytest
+
 from homework3.task4.arm_num.arm_num import is_armstrong
 
 

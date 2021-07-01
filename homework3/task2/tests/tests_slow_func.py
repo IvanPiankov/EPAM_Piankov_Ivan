@@ -1,5 +1,6 @@
 import pytest
 import pytest_timeout
+
 from homework3.task2.slow_func.slow_func import *
 
 

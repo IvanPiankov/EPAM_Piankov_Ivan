@@ -1,6 +1,7 @@
 import random
 
 import pytest
+
 from homework3.task1.cache_2.cache_2 import cache
 
 
