@@ -54,6 +54,3 @@ sample_data = [
 
 # make_filter(name='polly', type='bird').apply(sample_data) should return only second entry from the list
 # There are multiple bugs in this code. Find them all and write tests for faulty cases.
-
-
-print(make_filter(name="polly", type="bird").apply(sample_data))

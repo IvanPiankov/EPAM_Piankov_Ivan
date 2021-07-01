@@ -1,5 +1,5 @@
 import pytest
-from homework3.task4.arm_number.arm_number import is_armstrong
+from homework3.task4.arm_num.arm_num import is_armstrong
 
 
 @pytest.mark.parametrize(
