@@ -1,3 +1,4 @@
 pytest
 pytest-sugar
 pre-commit
+pytest_timeout
