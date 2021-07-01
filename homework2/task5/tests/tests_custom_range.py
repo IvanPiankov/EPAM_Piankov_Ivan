@@ -2,6 +2,7 @@ import string
 from typing import Any, List, Sequence
 
 import pytest
+
 from homework2.task5.custom_range.custom_range import custom_range
 
 

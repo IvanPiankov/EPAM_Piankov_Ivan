@@ -1,6 +1,7 @@
 from typing import Any, List, Tuple
 
 import pytest
+
 from homework2.task3.list_combine.list_combine import combinations
 
 

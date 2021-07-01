@@ -1,6 +1,7 @@
 import os
 
 import pytest
+
 from homework2.task1.text_symbol.text_symbol import *
 
 list_with_ten_words = [

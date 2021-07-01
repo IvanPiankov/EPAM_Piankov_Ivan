@@ -1,6 +1,7 @@
 from typing import List, Tuple
 
 import pytest
+
 from homework2.task2.maj_and_min.maj_and_min import major_and_minor_elem
 
 
