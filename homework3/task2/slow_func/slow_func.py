@@ -30,6 +30,10 @@ def slow_calculate(value):
 
 
 def multiproc_Pool_function():
+    """
+    Function which start slow_calculate function with using multiprocessing
+    :return:result of slow_calculate function
+    """
     with Pool(40) as pool:
         result = sum(pool.map(slow_calculate, range(500)))
     return result

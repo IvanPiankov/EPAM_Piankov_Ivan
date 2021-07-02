@@ -14,6 +14,11 @@ Write a function that detects if a number is Armstrong number in functionaly sty
 
 
 def is_armstrong(number: int) -> bool:
+    """
+    A function that determines whether a number is an armstrong number or not
+    :param number: any number
+    :return: bool
+    """
 
     if number < 0:
         return False
