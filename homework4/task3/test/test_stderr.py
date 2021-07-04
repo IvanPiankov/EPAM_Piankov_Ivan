@@ -1,6 +1,7 @@
 import sys
 
 import pytest
+
 from homework4.task3.stderr.stderr import my_precious_logger
 
 

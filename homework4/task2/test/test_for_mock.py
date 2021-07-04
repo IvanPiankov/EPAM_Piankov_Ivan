@@ -1,5 +1,6 @@
 import pytest
 import requests
+
 from homework4.task2.mock.mock import count_dots_on_i
 
 

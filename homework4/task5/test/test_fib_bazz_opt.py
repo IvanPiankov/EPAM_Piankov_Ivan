@@ -1,4 +1,5 @@
 import pytest
+
 from homework4.task5.fib_bazz_opt.fib_bazz_opt import fizzbuzz
 
 
