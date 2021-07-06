@@ -20,6 +20,7 @@ import random
 import struct
 import time
 from multiprocessing import Pool
+from typing import Any
 
 
 def slow_calculate(value):
