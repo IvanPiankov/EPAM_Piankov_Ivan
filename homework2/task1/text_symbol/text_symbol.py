@@ -96,11 +96,10 @@ def get_most_common_non_ascii_char(file_path: str) -> str:
     :param file_path: path to file
     :return: most common non ascii char
     """
-    list_of_ascii = set(string.ascii_letters)
     count = Counter()
     with open(file_path, encoding="unicode-escape") as f:
         for line in f:
             for char in line:
-                if char not in list_of_ascii:
+                if char not in string.ascii_letters:
                     count[char] += 1
     return count.most_common()[0][0]
