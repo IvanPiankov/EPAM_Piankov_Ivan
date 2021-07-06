@@ -33,10 +33,9 @@ def make_filter(**keywords):
         # item_of_data takes from list comprehension in apply func of Filter class
         # keywords - arguments of function make_filter
         for key, value in keywords.items():
-            if item_of_data.get(key) is value:
-                continue
-            else:
+            if item_of_data.get(key) is not value:
                 return False
+                
         return True
 
     # Take function with remembered key and value (kwargs of make_filter)
