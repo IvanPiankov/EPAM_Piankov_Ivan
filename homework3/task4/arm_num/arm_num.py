@@ -29,6 +29,4 @@ def is_armstrong(number: int) -> bool:
 
     result_arm_map = map(lambda x: int(x) ** power, number_list)
 
-    result_arm = sum(list(result_arm_map))
-
-    return number == result_arm
+    return number == sum(list(result_arm_map))
