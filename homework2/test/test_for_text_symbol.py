@@ -27,7 +27,7 @@ list_with_ten_words = [
 )
 def test_longest_word(name_of_file: str, expected_result: tuple):
     result = get_longest_diverse_words(
-        os.path.join("./homework2/task1/tests/test_data", name_of_file)
+        os.path.join("./homework2/test/test_data", name_of_file)
     )
     result = set(result)
     expected_result = set(expected_result)
@@ -42,9 +42,7 @@ def test_longest_word(name_of_file: str, expected_result: tuple):
     ],
 )
 def test_get_rarest_char(name_of_file: str, expected_result: str):
-    result = get_rarest_char(
-        os.path.join("./homework2/task1/tests/test_data", name_of_file)
-    )
+    result = get_rarest_char(os.path.join("./homework2/test/test_data", name_of_file))
     assert result == expected_result
 
 
@@ -58,7 +56,7 @@ def test_get_rarest_char(name_of_file: str, expected_result: str):
 )
 def test_count_punctuation_chars(name_of_file: str, expected_result: int):
     result = count_punctuation_chars(
-        os.path.join("./homework2/task1/tests/test_data", name_of_file)
+        os.path.join("./homework2/test/test_data", name_of_file)
     )
     assert result == expected_result
 
@@ -69,7 +67,7 @@ def test_count_punctuation_chars(name_of_file: str, expected_result: int):
 )
 def test_count_non_ascii_chars(name_of_file: str, expected_result: int):
     result = count_non_ascii_chars(
-        os.path.join("./homework2/task1/tests/test_data", name_of_file)
+        os.path.join("./homework2/test/test_data", name_of_file)
     )
     assert result == expected_result
 
@@ -80,6 +78,6 @@ def test_count_non_ascii_chars(name_of_file: str, expected_result: int):
 )
 def test_get_most_common_non_ascii_char(name_of_file: str, expected_result: int):
     result = get_most_common_non_ascii_char(
-        os.path.join("./homework2/task1/tests/test_data", name_of_file)
+        os.path.join("./homework2/test/test_data", name_of_file)
     )
     assert result == expected_result
