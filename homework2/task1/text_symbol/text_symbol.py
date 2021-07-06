@@ -65,12 +65,11 @@ def count_punctuation_chars(file_path: str) -> int:
     :return: count of punctuation chars
     """
     # set with all punctuation chars
-    list_of_punctuation = set(string.punctuation)
     count = 0
     with open(file_path, encoding="unicode-escape") as f:
         for line in f:
             for char in line:
-                if char in list_of_punctuation:
+                if char in string.punctuation:
                     count += 1
     return count
 
