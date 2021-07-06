@@ -29,7 +29,7 @@ def slow_calculate(value):
     return sum(struct.unpack("<" + "B" * len(data), data))
 
 
-def multiproc_Pool_function():
+def multiproc_Pool_function() -> Any:
     """
     Function which start slow_calculate function with using multiprocessing
     :return:result of slow_calculate function
