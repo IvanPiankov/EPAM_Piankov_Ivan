@@ -8,10 +8,10 @@ with open("some_file.txt") as fi:
     for line in fi:
         ...
 """
-from typing import Tuple
+from typing import Any, Tuple
 
 
-def maximum_and_minimum(file_name: str) -> Tuple[int, int]:
+def maximum_and_minimum(file_name: str) -> Tuple[Any, Any]:
     """
     Function found maximum and minimum in file
     :param file_name: file_name

@@ -16,17 +16,16 @@ def check_fibonacci(data: Sequence[int]) -> bool:
     if len(data) == 0:
         return False
 
-    elif len(data) == 1:
+    if len(data) == 1:
         if data[0] == 0:
             return True
         return False
 
-    elif len(data) == 2:
+    if len(data) == 2:
         if data[0] == 0 and data[1] == 1:
             return True
         return False
-    else:
-        for i in range(2, len(data)):
-            if not data[i] == data[i - 1] + data[i - 2]:
-                return False
-        return True
+    for i in range(2, len(data)):
+        if not data[i] == data[i - 1] + data[i - 2]:
+            return False
+    return True

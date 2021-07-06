@@ -16,16 +16,15 @@ def find_maximal_subarray_sum(nums: List[int], k: int) -> int:
     :param k: length of element in sub-array
     :return: sum
     """
-    assert k <= len(nums)
+
     assert k > 0
 
     if k == 1:
         return max(nums)
-    else:
-        sum_array = min(nums)
-        for i in range(1, k + 1):
-            for j in range(i, len(nums) + 1):
-                first_elem_in_window = j - i
-                sum_of_sub_array = sum(nums[first_elem_in_window:j])
-                sum_array = max(sum_array, sum_of_sub_array)
-        return sum_array
+    sum_array = min(nums)
+    for i in range(1, k + 1):
+        for j in range(i, len(nums) + 1):
+            first_elem_in_window = j - i
+            sum_of_sub_array = sum(nums[first_elem_in_window:j])
+            sum_array = max(sum_array, sum_of_sub_array)
+    return sum_array
