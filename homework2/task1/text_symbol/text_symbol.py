@@ -38,10 +38,8 @@ def get_longest_diverse_words(file_path: str) -> List[str]:
     keys_sort = sorted(word_dict.keys(), key=lambda x: (x[0], x[1]), reverse=True)
     list_with_word = []
     for keys in keys_sort:
-        if len(list_with_word) < 10:
-            list_with_word.append(word_dict[keys])
-            continue
-        else:
+        list_with_word.append(word_dict[keys])
+        if len(list_with_word) > 9:
             break
     return list_with_word
 
