@@ -35,7 +35,7 @@ def make_filter(**keywords):
         for key, value in keywords.items():
             if item_of_data.get(key) is not value:
                 return False
-                
+
         return True
 
     # Take function with remembered key and value (kwargs of make_filter)
