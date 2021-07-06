@@ -80,12 +80,11 @@ def count_non_ascii_chars(file_path: str) -> int:
     :param file_path: path to file
     :return: count of non ascii char
     """
-    list_of_ascii = set(string.ascii_letters)
     count = 0
     with open(file_path, encoding="unicode-escape") as f:
         for line in f:
             for char in line:
-                if char not in list_of_ascii:
+                if char not in string.ascii_letters:
                     count += 1
     return count
 
