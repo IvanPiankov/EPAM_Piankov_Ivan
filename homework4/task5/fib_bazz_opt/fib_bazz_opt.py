@@ -21,7 +21,7 @@ def fizzbuzz(n: int) -> Generator:
     :param n: numbers n
     :return: return FizzBuzz number
     """
-    if n == 0:
+    if n <= 0:
         raise ValueError("n should be >= 1")
 
     for i in range(1, n + 1):

@@ -30,7 +30,8 @@ def count_dots_on_i(url: str) -> int:
     """
     try:
         req = requests.get(url)
-    except requests.exceptions.RequestException:
+    except Exception as ex:
+        print(ex)
         raise ValueError(f"Unreachable {url}")
 
     text_req = req.text

@@ -40,4 +40,4 @@ def read_magic_number(path: str) -> bool:
     except ValueError:
         raise ValueError(f"first line has type {type(first_line)}")
 
-    return True if 1.0 <= number < 3.0 else False
+    return 1.0 <= number < 3.0
