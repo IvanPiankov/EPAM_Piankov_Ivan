@@ -39,8 +39,9 @@ import datetime
 
 class Homework:
     """
-     This class stores homework for student
+    This class stores homework for student
     """
+
     def __init__(self, text_of_task: str, day_number: int):
         self.text = text_of_task
         self.deadline = datetime.timedelta(day_number)
@@ -58,6 +59,7 @@ class Student:
     """
     Class which store information about students
     """
+
     def __init__(self, last_name_string: str, first_name_string: str):
         self.last_name = last_name_string
         self.first_name = first_name_string
@@ -79,6 +81,7 @@ class Teacher:
     """
     Class which store information about teacher
     """
+
     def __init__(self, last_name_string: str, first_name_string: str):
         self.last_name = last_name_string
         self.first_name = first_name_string
