@@ -1,0 +1,82 @@
+[
+    {
+        "code": "MRNA",
+        "name": "Moderna Inc",
+        "price, rub": 27068.3,
+        "P/E": -59.95,
+        "growth, %": 466.04,
+        "potential profit, %": 817.12
+    },
+    {
+        "code": "MRK",
+        "name": "Merck Co.",
+        "price, rub": 5723.73,
+        "P/E": 13.66,
+        "growth, %": -4.58,
+        "potential profit, %": 447.06
+    },
+    {
+        "code": "FANG",
+        "name": "Diamondback Energy Inc",
+        "price, rub": 5329.9,
+        "P/E": 15.58,
+        "growth, %": 79.79,
+        "potential profit, %": 333.9
+    },
+    {
+        "code": "DVN",
+        "name": "Devon Energy Corp.",
+        "price, rub": 1998.53,
+        "P/E": -167.13,
+        "growth, %": 152.75,
+        "potential profit, %": 313.31
+    },
+    {
+        "code": "DISCA",
+        "name": "Discovery Communications Inc  (A)",
+        "price, rub": 2079.35,
+        "P/E": 9.18,
+        "growth, %": 34.53,
+        "potential profit, %": 309.75
+    },
+    {
+        "code": "OXY",
+        "name": "Occidental Petroleum Corp.",
+        "price, rub": 1803.82,
+        "P/E": -4.41,
+        "growth, %": 71.76,
+        "potential profit, %": 293.19
+    },
+    {
+        "code": "ENPH",
+        "name": "Enphase Energy Inc",
+        "price, rub": 12310.05,
+        "P/E": 125.98,
+        "growth, %": 208.68,
+        "potential profit, %": 290.17
+    },
+    {
+        "code": "VIAC",
+        "name": "ViacomCBS",
+        "price, rub": 2814.1,
+        "P/E": null,
+        "growth, %": 53.35,
+        "potential profit, %": 287.87
+    },
+    {
+        "code": "DISCK",
+        "name": "Discovery Communications Inc  (C)",
+        "price, rub": 1983.1,
+        "P/E": 8.03,
+        "growth, %": 39.51,
+        "potential profit, %": 284.66
+    },
+    {
+        "code": "MRO",
+        "name": "Marathon Oil Corp.",
+        "price, rub": 849.37,
+        "P/E": -5.6,
+        "growth, %": 108.24,
+        "potential profit, %": 284.18
+    }
+]

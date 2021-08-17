@@ -1,0 +1,34 @@
+
+<tr>
+						<td class="table__td table__td--big">
+<a href="/stocks/aapl-stock" title="Apple">Apple</a>
+						</td>
+						<td class="table__td">
+126.60<br>
+126.74
+						</td>
+						<td class="table__td">
+0.00<br>
+0.00
+						</td>
+						<td class="table__td">
+<span class="colorRed">-0.53</span><br>
+<span class="colorRed">-0.42%</span>
+						</td>
+						<td class="table__td">
+<span>05:07 AM</span><span style="display:none" rel="localdatetime" format="hh:mm tt">08/10/2021 05:07:45 AM UTC-0400</span><br>
+10.08.2021
+						</td>
+						<td class="table__td">
+<span class="colorGreen">9.54</span><br>
+<span class="colorGreen">8.20%</span>
+						</td>
+						<td class="table__td">
+<span class="colorGreen">1.52</span><br>
+<span class="colorGreen">1.22%</span>
+						</td>
+						<td class="table__td">
+<span class="colorGreen">42.54</span><br>
+<span class="colorGreen">51.02%</span>
+						</td>
+</tr>>
