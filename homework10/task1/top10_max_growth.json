@@ -1,0 +1,82 @@
+[
+    {
+        "code": "MRNA",
+        "name": "Moderna Inc",
+        "price, rub": 27068.3,
+        "P/E": -59.95,
+        "growth, %": 466.04,
+        "potential profit, %": 817.12
+    },
+    {
+        "code": "GNRC",
+        "name": "Generac Holdings Inc",
+        "price, rub": 30121.2,
+        "P/E": 34.05,
+        "growth, %": 230.7,
+        "potential profit, %": 169.7
+    },
+    {
+        "code": "ENPH",
+        "name": "Enphase Energy Inc",
+        "price, rub": 12310.05,
+        "P/E": 125.98,
+        "growth, %": 208.68,
+        "potential profit, %": 290.17
+    },
+    {
+        "code": "TPR",
+        "name": "Tapestry",
+        "price, rub": 3205.73,
+        "P/E": 13.55,
+        "growth, %": 182.24,
+        "potential profit, %": 251.27
+    },
+    {
+        "code": "GPS",
+        "name": "Gap Inc.",
+        "price, rub": 2057.31,
+        "P/E": -11.51,
+        "growth, %": 160.1,
+        "potential profit, %": 163.45
+    },
+    {
+        "code": "ALB",
+        "name": "Albemarle Corp.",
+        "price, rub": 16306.37,
+        "P/E": 35.35,
+        "growth, %": 158.55,
+        "potential profit, %": 206.11
+    },
+    {
+        "code": "DVN",
+        "name": "Devon Energy Corp.",
+        "price, rub": 1998.53,
+        "P/E": -167.13,
+        "growth, %": 152.75,
+        "potential profit, %": 313.31
+    },
+    {
+        "code": "COF",
+        "name": "Capital One Financial Corp.",
+        "price, rub": 13034.52,
+        "P/E": 16.72,
+        "growth, %": 152.1,
+        "potential profit, %": 180.72
+    },
+    {
+        "code": "FCX",
+        "name": "Freeport-McMoRan Inc",
+        "price, rub": 2682.58,
+        "P/E": 46.28,
+        "growth, %": 149.53,
+        "potential profit, %": 229.05
+    },
+    {
+        "code": "MHK",
+        "name": "Mohawk Industries Inc.",
+        "price, rub": 15289.48,
+        "P/E": 15.66,
+        "growth, %": 144.66,
+        "potential profit, %": 162.69
+    }
+]

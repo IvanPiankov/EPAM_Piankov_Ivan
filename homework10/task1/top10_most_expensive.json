@@ -1,0 +1,82 @@
+[
+    {
+        "code": "NVR",
+        "name": "NVR Inc.",
+        "price, rub": 388347.09,
+        "P/E": 17.87,
+        "growth, %": 40.41,
+        "potential profit, %": 39.46
+    },
+    {
+        "code": "AMZN",
+        "name": "Amazon",
+        "price, rub": 241320.07,
+        "P/E": 79.54,
+        "growth, %": 4.94,
+        "potential profit, %": 31.42
+    },
+    {
+        "code": "GOOG",
+        "name": "Alphabet C (ex Google)",
+        "price, rub": 203526.58,
+        "P/E": 30.01,
+        "growth, %": 83.57,
+        "potential profit, %": 99.08
+    },
+    {
+        "code": "GOOGL",
+        "name": "Alphabet A (ex Google)",
+        "price, rub": 202769.79,
+        "P/E": 30.0,
+        "growth, %": 82.36,
+        "potential profit, %": 97.36
+    },
+    {
+        "code": "BKNG",
+        "name": "Booking Holdings Inc Registered Shs",
+        "price, rub": 156135.01,
+        "P/E": 460.92,
+        "growth, %": 23.29,
+        "potential profit, %": 58.33
+    },
+    {
+        "code": "CMG",
+        "name": "Chipotle Mexican Grill Inc.",
+        "price, rub": 137223.94,
+        "P/E": 129.05,
+        "growth, %": 63.16,
+        "potential profit, %": 63.16
+    },
+    {
+        "code": "AZO",
+        "name": "AutoZone Inc.",
+        "price, rub": 120021.9,
+        "P/E": 16.46,
+        "growth, %": 38.76,
+        "potential profit, %": 53.49
+    },
+    {
+        "code": "MTD",
+        "name": "Mettler-Toledo International Inc.",
+        "price, rub": 114573.71,
+        "P/E": 43.78,
+        "growth, %": 58.14,
+        "potential profit, %": 68.58
+    },
+    {
+        "code": "ISRG",
+        "name": "Intuitive Surgical Inc",
+        "price, rub": 74815.49,
+        "P/E": 80.71,
+        "growth, %": 46.09,
+        "potential profit, %": 63.52
+    },
+    {
+        "code": "BLK",
+        "name": "BlackRock Inc.",
+        "price, rub": 67786.84,
+        "P/E": 20.99,
+        "growth, %": 56.03,
+        "potential profit, %": 74.13
+    }
+]
